@@ -1,0 +1,48 @@
+body{
+    background: url(/Imagem/fullmetal-alchemist.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 105vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    width: 60%;
+}
+
+.direita {
+    width: 21%;
+    border: 2px solid white;
+    padding: 90px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(197, 45, 45),black);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 20%;
+    border-radius: 20px;
+}
